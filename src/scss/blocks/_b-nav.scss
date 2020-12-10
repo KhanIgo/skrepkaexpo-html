@@ -1,37 +1,35 @@
 .b-nav{
     display: flex;
     justify-content: center;
-    align-items: stretch;
-    font-size: 1.1em;
+    align-items: center;
+    font-size: 0.87em;
     color: white;
+    padding: 0 20px;
 
-    @media (max-width: 860px){
-        position: fixed;
-        top: 59px;
-        left: 0;
-        height: calc( 100vh - 105px );
-        width: 100%;
-        min-width: 320px;
-        max-width: 400px;
-        justify-content: flex-start;
-        padding-top: 30px;
-        transition: 350ms ease-in-out;
-        z-index: 10;
-      }
+    // @media (max-width: 860px){
+    //     position: fixed;
+    //     top: 59px;
+    //     left: 0;
+    //     height: calc( 100vh - 105px );
+    //     width: 100%;
+    //     min-width: 320px;
+    //     max-width: 400px;
+    //     justify-content: flex-start;
+    //     padding-top: 30px;
+    //     transition: 350ms ease-in-out;
+    //     z-index: 10;
+    //   }
 
     &__list{
         list-style: none;
         display: flex;
         align-items: stretch;
-        padding: 0 50px;
+        padding: 0 0px;
+        position: relative;
+
         
-        @media (max-width: 1450px){
-            padding: 0 20px;
-        }
-        @media (max-width: 860px){
-            flex-direction: column;
-            padding: 0 10px;
-        }
+        flex-wrap: wrap;
+        
     }
     &__item{
         height: 100%;
@@ -39,7 +37,8 @@
         align-items: stretch;
         position: relative;
         transition: 350ms ease-in;
-        padding: 0 32px;
+        padding: 7px 20px;
+        white-space: nowrap;
         &:hover, &.is-active{
             a{
                 
@@ -49,14 +48,16 @@
                 }
             }
         }
+        &.is-hidden{
+            // position: absolute;
+            // width: 100%;
+            // margin-left: auto;
+            // background-color: grey;
 
-        @media (max-width: 1450px){
-            padding: 0 12px;
+
+            // display: none;
         }
-        @media (max-width: 860px){
-            padding: 15px;
-            height: auto;
-        }
+
         
     }
     &__link{

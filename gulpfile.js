@@ -124,6 +124,10 @@ gulp.task('clean', gulp.parallel('clean:html', 'clean:css', 'clean:js', 'clean:i
 gulp.task('copy:img', function (done) {
   gulp.src( path.srcImg +'/**/*.*')
       .pipe(gulp.dest( path.targetImg ));
+    
+  gulp.src( path.srcCss +'/img/**/*.*')
+      .pipe(gulp.dest( path.targetCss+'/img' ));
+
   done();
 });
 

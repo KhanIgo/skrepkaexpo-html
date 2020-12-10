@@ -155,15 +155,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/ham.js":
-/*!***********************!*\
-  !*** ./src/js/ham.js ***!
-  \***********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/js/header.js":
+/*!**************************!*\
+  !*** ./src/js/header.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"../../../node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function ($) {\n  $('.js-header-ham').click(function (e) {\n    $(this).toggleClass('is-active');\n    $('.b-header__links').toggleClass('is-active');\n    $('.b-header__nav').toggleClass('is-active');\n  });\n}); //\n\n//# sourceURL=webpack:///./src/js/ham.js?");
+eval("// import jquery from 'jquery';\n// window.jQuery = jquery;\n// jquery(function($){\n//     var $navItems = $('.b-header__nav .b-nav__item:not(.is-hidden)');\n//     var counter = 0;\n//     $(window).bind(\"load\", function() {\n//         $navItems.each(function(){\n//             let $this = $(this);\n//             if($this.offset().top>0){\n//                 counter++;\n//                 // console.log('counter', counter);\n//                 // console.log('$this.height()', $this.height());\n//                 var top = counter * $this.height();\n//                 // console.log('top', top);\n//                 $this.css('top',  top+'px');\n//                 $this.addClass('is-hidden');\n//             }\n//         });\n//     });\n// });\n\n//# sourceURL=webpack:///./src/js/header.js?");
 
 /***/ }),
 
@@ -175,7 +174,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"../../../node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\nwindow.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;\n\n__webpack_require__(/*! ./ham */ \"./src/js/ham.js\"); // require(\"@fancyapps/fancybox\");\n// jquery(function($) {\n//     $(\".js-fancy-pdf\").fancybox({\n//         openEffect: 'elastic',\n//         closeEffect: 'elastic',\n//         autoSize: true,\n//         type: 'iframe',\n//         iframe: {\n//             preload: false // fixes issue with iframe and IE\n//         }\n//     });\n//     $('.js-prevent').click(function(e){\n//         e.preventDefault();\n//     });\n// });\n// window.jQuery = jquery;\n// window.$ = jquery;\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"../../../node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\nwindow.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;\n\n__webpack_require__(/*! ./header */ \"./src/js/header.js\"); // require('./ham');\n// require(\"@fancyapps/fancybox\");\n// jquery(function($) {\n//     $(\".js-fancy-pdf\").fancybox({\n//         openEffect: 'elastic',\n//         closeEffect: 'elastic',\n//         autoSize: true,\n//         type: 'iframe',\n//         iframe: {\n//             preload: false // fixes issue with iframe and IE\n//         }\n//     });\n//     $('.js-prevent').click(function(e){\n//         e.preventDefault();\n//     });\n// });\n// window.jQuery = jquery;\n// window.$ = jquery;\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 

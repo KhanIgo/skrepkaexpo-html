@@ -8,7 +8,12 @@
         @include mask-icon('images/icon-address.png');
     }
     &_phone{
-        @include mask-icon('images/icon-phone.png');
+        font-size: 1.2em;
+        @include mask-icon('img/icon/icon-phone.svg');
+    }
+    &_email{
+        font-size: 1.1em;
+        @include mask-icon('img/icon/icon-email.svg');
     }
 
     &_play{
@@ -16,5 +21,23 @@
         height: 25px;
         background-color: white;
         @include mask-icon('images/icon-play.png');
+    }
+    &_menu{
+        background-color: transparent;
+        position: relative;
+        width: 2em;
+        height: 0.9em;
+        &:before, &:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 2em;
+            height: 2px;
+            background-color: white;
+        }
+        &:after{
+            width: 1.15em;
+            bottom: 0;
+        }
     }
 }

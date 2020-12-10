@@ -5,12 +5,35 @@
   z-index: 15;
   display: flex;
   background-color: var(--cPrimary);
+  overflow: visible;
+  align-items: stretch;
+  height: 80px;
 
   &__btn-menu{
     background-color: var(--cSecondary);
+    width: 195px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
   &__btn-lang{
     background-color: var(--cSecondary);
+    width: 80px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  &__nav{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    // overflow: hidden;
   }
   
 
@@ -26,9 +49,7 @@
   }
 
 
-  &__nav{
-    flex-grow: 1;
-  }
+  
 
   
 }

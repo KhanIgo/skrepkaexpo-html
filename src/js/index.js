@@ -1,7 +1,9 @@
 import jquery from 'jquery';
 window.jQuery = jquery;
 
-require('./ham');
+require('./header');
+
+// require('./ham');
 // require("@fancyapps/fancybox");
 
 

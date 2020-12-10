@@ -1,0 +1,81 @@
+.b-hero {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/b-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        color: white;
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    &__header-cnt {
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0px 10px;
+    }
+    
+    &__logo {
+    }
+    
+    &__contacts {
+        font-size: 1.12em;
+        a{
+            margin-left: 35px;
+        }
+        .icon_email{}
+        .icon_phone{}
+    }
+    &__body {
+    }
+    .cnt {
+        p {
+        }
+    }
+    h1 {
+    }
+    &__acts {
+        p {
+            .btn {
+                &_red{
+                }
+            }
+            .btn {
+                &_trans{
+                }
+            }
+        }
+    }
+    &__footer {
+        position: absolute;
+        bottom: 0;
+    }
+    &__nav {
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.12em;
+        ul {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        li {}
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    
+    &__social {
+    }
+    .b-social {
+    }
+}
