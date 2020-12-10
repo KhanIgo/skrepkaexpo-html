@@ -1,0 +1,70 @@
+
+.ui-btn{
+    display: inline-block;
+    text-decoration: none;
+    // padding: 1.55em 1.7em 1.45em;
+    padding: 0.55em 1.5em;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    
+    text-transform: uppercase;
+    
+    // @media (max-width: $tabWidth){
+    //     font-size: 0.9em;
+    // }
+    
+    &_red, &_secondary{
+        
+        
+        transition: 350ms ease-in-out;
+        &:hover{
+            
+        }
+    }
+
+
+    &_close{
+        // 
+        // display: block;
+            // position: absolute;
+            // flex-shrink: 0;
+            // flex-grow: 0;
+            padding: 0;  
+            width: 30px;
+            height: 30px;
+            background-color: currentColor;
+            @include mask-rep(no-repeat);
+            @include mask-pos( center);
+            @include mask-size(contain);
+            @include mask('../img/ui/close_window.svg');
+            transition: 250ms ease-in;
+            &:hover{
+                transform: scale(1.1);
+            }
+    }
+    
+    
+    &_huge{
+        padding: 2.25em 4em;
+    }
+    &_huge-2{
+        padding: 2em 2.3em;
+    }
+
+}
+
+
+
+
+
+// .Прямоугольник_1_копия_4 {
+    
+//     position: absolute;
+//     left: 240px;
+//     top: 569px;
+//     width: 365px;
+//     height: 90px;
+//     z-index: 125;
+//   }
+  

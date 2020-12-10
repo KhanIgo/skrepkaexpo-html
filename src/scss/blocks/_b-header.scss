@@ -1,0 +1,38 @@
+.b-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  background-color: var(--cPrimary);
+
+  &__btn-menu{
+    background-color: var(--cSecondary);
+  }
+  &__btn-lang{
+    background-color: var(--cSecondary);
+  }
+  
+
+  // @media (max-width: 860px){
+  //    position: fixed;
+  //    z-index: 5;
+  //    background-color: white;
+  // }
+
+
+  &__cnt {
+    align-items: stretch;
+  }
+
+
+  &__nav{
+    flex-grow: 1;
+  }
+
+  
+}
+
+
+
+

@@ -1,0 +1,17 @@
+.b-footer {
+    background-color: var(--cPrimary);
+    color: white;
+    &__cnt {
+    }
+    &__col {}
+    &__title-col {}
+    &__data-col {
+        opacity: 0.5;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .b-social {
+    }
+}

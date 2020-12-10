@@ -1,0 +1,20 @@
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+
+    &_address{
+        @include mask-icon('images/icon-address.png');
+    }
+    &_phone{
+        @include mask-icon('images/icon-phone.png');
+    }
+
+    &_play{
+        width: 21px;
+        height: 25px;
+        background-color: white;
+        @include mask-icon('images/icon-play.png');
+    }
+}
