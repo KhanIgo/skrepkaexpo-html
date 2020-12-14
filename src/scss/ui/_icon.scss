@@ -15,12 +15,19 @@
         font-size: 1.1em;
         @include mask-icon('img/icon/icon-email.svg');
     }
+    &_star{
+        @include mask-icon('img/icon/icon-star.svg');
+        background-color: var(--cStar);
+    }
 
     &_play{
-        width: 21px;
-        height: 25px;
-        background-color: white;
-        @include mask-icon('images/icon-play.png');
+        width: 1em;
+        height: 1em;
+        background-image: url('img/icon/icon-play.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        overflow: hidden;
     }
     &_menu{
         background-color: transparent;

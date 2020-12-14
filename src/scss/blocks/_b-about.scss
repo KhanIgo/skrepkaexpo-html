@@ -1,0 +1,33 @@
+
+.b-about-sect{
+    // -sect__cnt b-about cnt
+    padding: 115px 0;
+    &__title{
+        margin-bottom: 2em;
+    }
+    &__cnt_2{
+        margin-top: 65px;
+        // justify-content: space-between;
+    }
+    &__cnt_3{
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+}
+
+.b-about-item {
+    display: flex;
+    &__icon {
+        margin-right: 25px;
+    }
+    img {
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+    span {
+    }
+    a {
+    }
+}

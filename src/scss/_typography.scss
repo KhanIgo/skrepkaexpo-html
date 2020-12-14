@@ -32,7 +32,12 @@
     color: inherit;
 }
 
-
+.t-primary{
+    color: var(--cPrimary);
+}
+.t-secondary{
+    color: var(--cSecondary);
+}
 
 .fw-100 {
     font-weight: 100;
@@ -269,21 +274,47 @@
     font-size: 3em;
 }
 
+.lh{
+    &-0-5e{line-height: 0.5em;}
+    &-1e{ line-height: 1em;}
+    &-1-5e{line-height: 1.5em;}
+    &-2e{ line-height: 2em;}
+}
 .mb{
+    &-0-25e{ margin-bottom: 0.25em;}
+    &-0-5e{ margin-bottom: 0.5em;}
+    &-0-75e{ margin-bottom: 0.75em;}
     &-1e{ margin-bottom: 1em;}
+    &-1-25e{ margin-bottom: 1.25em;}
     &-1-5e{ margin-bottom: 1.5em;}
+    &-1-75e{ margin-bottom: 1.75em;}
     &-2e{ margin-bottom: 2em;}
+    &-2-25e{ margin-bottom: 2.25em;}
     &-2-5e{ margin-bottom: 2.5em;}
+    &-2-75e{ margin-bottom: 2.75em;}
     &-3e{ margin-bottom: 3em;}
+    &-3-25e{ margin-bottom: 3.25em;}
     &-3-5e{ margin-bottom: 3.5em;}
+    &-3-75e{ margin-bottom: 3.75em;}
+    &-4e{ margin-bottom: 4em;}
 }
 .mt{
+    &-0-25e{ margin-top: 0.25em;}
+    &-0-5e{ margin-top: 0.5em;}
+    &-0-75e{ margin-top: 0.75em;}
     &-1e{ margin-top: 1em;}
+    &-1-25e{ margin-top: 1.25em;}
     &-1-5e{ margin-top: 1.5em;}
+    &-1-75e{ margin-top: 1.75em;}
     &-2e{ margin-top: 2em;}
+    &-2-25e{ margin-top: 2.25em;}
     &-2-5e{ margin-top: 2.5em;}
+    &-2-75e{ margin-top: 2.75em;}
     &-3e{ margin-top: 3em;}
+    &-3-25e{ margin-top: 3.25em;}
     &-3-5e{ margin-top: 3.5em;}
+    &-3-75e{ margin-top: 3.75em;}
+    &-4e{ margin-top: 4em;}
 }
 .pb{
     &-1e{ padding-bottom: 1em;}
@@ -329,4 +360,19 @@
 .songer-cond{ 
     font-family: 'Songer Cond'; 
     letter-spacing: 0.05em;
+}
+
+.t-title-redline{
+    // display: flex;
+    padding-left: 1.4em;
+    position: relative;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 17%;
+        height: 65%;
+        width: 5px;
+        background-color: var(--cSecondary);
+    }
 }
