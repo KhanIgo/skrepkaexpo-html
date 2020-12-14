@@ -46,6 +46,15 @@
             
         }
     }
+    &_light{
+        background-color: white;
+        border: solid 1px white;
+        transition: 350ms ease-in-out;
+        color: var(--cPrimary);
+        &:hover{
+            
+        }
+    }
     &_trans{
         border: solid 1px currentColor;
     }

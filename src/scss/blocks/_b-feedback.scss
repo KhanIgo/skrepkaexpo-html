@@ -1,3 +1,17 @@
+
+.b-feedback{
+    padding: 75px 0;
+    &__slider{
+        margin-top: 50px;
+        width: 100%;
+        // flex: 100% 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
 .b-feedback-item {
     width: 370px;
     border: 1px solid #E2E4EA;
@@ -74,3 +88,5 @@
         }
     }
 }
+
+

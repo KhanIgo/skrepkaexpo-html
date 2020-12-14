@@ -1,0 +1,23 @@
+.b-info {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    &_1{
+        color: white;
+        margin-top: 195px;
+        background-image: url(img/b-info-bg.jpg);
+    }
+    &_2{
+        color: white;
+        margin-top: 195px;
+        background-image: url(img/b-info-bg-2.jpg);
+    }
+    &__cnt {
+
+    }
+    h2 {
+        color: inherit;
+    }
+}
