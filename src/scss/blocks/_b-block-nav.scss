@@ -1,0 +1,30 @@
+
+  .b-block-nav {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      color: #636262;
+
+
+
+    &__item {
+        opacity: 0.4;
+        padding-bottom: 0.5em;
+        
+        &.is-active{
+            opacity: 1;
+            color: var(--cSecondary);
+            border-bottom: solid 1px currentColor;
+            font-weight: 700;
+        }
+      
+    }
+    &__link {
+        text-decoration: none;
+        color: inherit;
+        &:hover {}
+        &:active {}
+        &:focus {}
+      }
+  }

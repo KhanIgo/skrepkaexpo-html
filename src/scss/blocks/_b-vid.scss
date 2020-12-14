@@ -1,0 +1,30 @@
+.b-vid {
+  padding: 50px 0;
+    &__cnt {
+    }
+    &__title {
+      margin-bottom: 60px;
+    }
+    &__nav{
+
+    }
+
+    
+    &__slider {
+      margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .b-video{
+          margin: 0 10px;
+          &:first-child{ margin-left: 0; }
+          &:last-child{ margin-right: 0; }
+        }
+        .b-phgal{
+          margin: 0 10px;
+          &:first-child{ margin-left: 0; }
+          &:last-child{ margin-right: 0; }
+        }
+    }
+}
